@@ -67,6 +67,7 @@ const roadReducer = (state = initialWagonState, action) => {
 let wagon = roadReducer(undefined, {});
 console.log(wagon);
 
+
 wagon = roadReducer(wagon, { type: 'travel', payload: 1 });
 console.log(wagon);
 wagon = roadReducer(wagon, { type: 'gather' });
